@@ -6,9 +6,12 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "jsx": "preserve",
+    "strictNullChecks": true
   },
   "include": [
+    "**/.eslintrc.cjs",
     "**/*.ts",
     "**/*.tsx",
     "**/*.js",
